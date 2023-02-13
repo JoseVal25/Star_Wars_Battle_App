@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+    #root {
+        @apply bg-black min-h-screen text-zinc-400 m-0 p-0
+    }
+    #button {
+        @apply h-10 w-6 bg-white
+    }
+}
